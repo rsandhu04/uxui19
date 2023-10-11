@@ -1,0 +1,298 @@
+#main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 800px;
+  height: 150px;
+  margin: 0 auto;
+}
+.span-col {
+	color: #75C1BC;
+}
+
+
+#mylogo {
+
+	margin: 0.5%;
+	padding: 0.5%;
+	
+	width: 12.5%;
+	height: 18.4%;
+	
+	position: absolute;
+	background-color: none;
+	top: 0%;
+	left: 4.5%;
+}
+
+#mylogo img
+
+	{
+		height:100%;
+		width:100%;	
+		
+		border: none;
+		
+		padding:0;
+		margin:0;	
+	}
+
+#nav 
+{
+	margin: 0.5%;
+	padding: 0.5%;
+	border-style: none;
+	border-color: #FFFFFF;
+	
+	
+	width: 60%;
+	height: 10%;
+
+	position: absolute;
+	top: 7%;
+	left: 61%;			
+}
+#nav a:link
+{
+	float: left;
+	margin: 1% 1% 3% 2%;
+	
+	font-family: "Garamond", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
+	font-weight: bold;
+	font-size: 144%;
+	color:#E7A1A2;
+	
+	text-decoration: none;	
+
+}
+
+#nav a:hover
+{
+	font-size: 145%;
+	color: #75C1BC;
+	font-weight: bolder;
+}
+#hero-img {
+  height: 500px;
+  background-color: #D8E8E7;
+  text-align: center;
+}
+
+
+#left-side
+{
+	margin: 0.5%;
+	padding: 0.5%;
+	background-color: none;
+	
+	width: 62%;
+	height: 50%;
+	
+	position: absolute;
+	left: 0%;
+	top: 23%;
+}
+
+#right-side
+{
+    margin: 0.5%;
+	padding: 0.5%;
+	
+	width: 12.5%;
+	height: 18.1%;
+	
+	position: absolute;
+	background-color: none;
+	top: 15.5%;
+	left: 59.5%;
+}
+#mylogo img
+
+	{
+		height:100%;
+		width:100%;	
+		
+		border: none;
+		
+		padding:0;
+		margin:0;	
+	}
+
+button
+{
+	background-color: #E7A1A2;
+	font-weight: bold;
+	margin-top: 90px;
+}
+
+#left-side h2
+{
+	font-family: "Tahoma", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
+	font-size: 42px;
+	font-weight:bold;
+	color:black;
+	font-style: normal;
+	text-align: center-left;
+	right: 25%;
+	margin-right: 43px;
+	
+}
+#left-side h3
+{
+	color: black;
+	margin-top: 60px;
+	font-size: 36px;
+}
+
+
+#my-skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 850px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#my-skills h2 {
+  width: 100%;
+  
+}
+
+.skill {
+  width: 30%;
+  margin-top: 2.5%;
+}
+
+.skill i {
+  font-size: 36px;
+}
+.skill p {
+  text-align: justify;
+}
+
+#projects {
+  width: 850px;
+  height:360px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#projects h2 {
+  text-align: center;
+  width: 100%;
+}
+#container-a
+{
+	width: 220%;
+	height: 177%;
+	background-color: #eee;
+	
+	
+}
+#work-a
+{
+	width: 95.5%;
+	height: 30%;
+	background-color: white;
+	margin-top: 1.9%;
+	margin-left: 2.3%;
+	
+}
+
+#work-a img
+{
+	    height:70%;
+		width:22%;	
+		
+		border: none;
+		
+		padding:0;
+		margin-left:5%;
+		margin-top:3%;
+}
+
+
+
+
+#work-b
+{
+	width: 95.5%;
+	height: 30%;
+	background-color: white;
+	margin-top: 1.9%;
+	margin-left: 2.3%;
+	
+}
+#work-b img
+{
+	    height:70%;
+		width:22%;	
+		
+		border: none;
+		
+		padding:0;
+		margin-left:5%;
+		margin-top:3%;
+}
+#work-c
+{
+	width: 95.5%;
+	height: 30%;
+	background-color: white;
+	margin-top: 1.9%;
+	margin-left: 2.3%;
+	
+}
+#work-c img
+{
+	    height:70%;
+		width:22%;	
+		
+		border: none;
+		
+		padding:0;
+		margin-left:5%;
+		margin-top:3%;
+}
+
+#testimonials blockquote {
+  width: 47%;
+  margin: 16px 0;
+  text-align: justify;
+}
+
+#testimonials blockquote p {
+  font-style: italic;
+}
+
+
+
+.footer {
+	background-color: #202020;
+	padding: 30px 0px 40px 0px;
+	width: 100%;
+	margin-top: 24%;
+}
+.footer-sect {
+	color: #b3b3b3;
+	margin-left: 33.5%;
+	margin-top: 1.5%;
+}
+.footer-sect a {
+	color: #b3b3b3;
+	margin-left: 10px;
+	text-decoration: none;
+	font-size: 18px;
+	text-align: center;
+}
+.social-icon a i {
+	width: 50px;
+	height: 50px;
+	border: 1px solid #cdcdcd;
+	line-height: 50px;
+	font-size: 20px;
+	border-radius: 50%;
+}
