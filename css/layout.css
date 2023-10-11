@@ -120,9 +120,30 @@
 
 button
 {
+	padding: 15px;
+    background-color: #373738;
+    color: white;
+    font-size: 15px;
+    border-radius: 4px;
+	margin-top: 40px;
+	transition-duration: 0.4s;
+    cursor: pointer;
+}
+button:hover
+{
 	background-color: #E7A1A2;
-	font-weight: bold;
-	margin-top: 90px;
+    color: white;
+}
+.button1
+{
+	padding: 10px;
+    background-color: #373738;
+    color: white;
+    font-size: 12px;
+    border-radius: 4px;
+	margin-top: 1px;
+	transition-duration: 0.4s;
+    cursor: pointer;
 }
 
 #left-side h2
@@ -210,7 +231,7 @@ button
 		border: none;
 		
 		padding:0;
-		margin-left:5%;
+		margin-left:3%;
 		margin-top:3%;
 }
 
@@ -234,7 +255,7 @@ button
 		border: none;
 		
 		padding:0;
-		margin-left:5%;
+		margin-left:3%;
 		margin-top:3%;
 }
 #work-c
@@ -254,20 +275,38 @@ button
 		border: none;
 		
 		padding:0;
-		margin-left:5%;
+		margin-left:3%;
 		margin-top:3%;
 }
 
-#testimonials blockquote {
-  width: 47%;
-  margin: 16px 0;
-  text-align: justify;
+#project-a
+{
+	width: 70%;
+	height: 30%;
+	background-color: white;
+	margin-top: 1.9%;
+	float: right;
 }
-
-#testimonials blockquote p {
-  font-style: italic;
+#project-a button
+{
+    float:left;
 }
-
+#project-b
+{
+	width: 70%;
+	height: 30%;
+	background-color: white;
+	margin-top: 1.9%;
+	float: right;
+}
+#project-c
+{
+	width: 70%;
+	height: 30%;
+	background-color: white;
+	margin-top: 1.9%;
+	float: right;
+}
 
 
 .footer {
